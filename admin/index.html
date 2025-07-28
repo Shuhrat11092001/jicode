@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Админ Панель</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="admin-container">
+    <!-- Навигационная панель -->
+    <nav class="sidebar">
+      <h2>Админ Панель</h2>
+      <ul>
+        <li><a href="#dashboard">Главная</a></li>
+        <li><a href="#statistics">Статистика</a></li>
+        <li><a href="#settings">Настройки</a></li>
+        <li><a href="#logout">Выйти</a></li>
+      </ul>
+    </nav>
+
+    <!-- Основное содержимое -->
+    <main class="content">
+      <header>
+        <h1>Добро пожаловать, Администратор!</h1>
+      </header>
+
+      <section id="statistics">
+        <h2>Статистика Посещений</h2>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <p>Посетители сегодня</p>
+            <h3>124</h3>
+          </div>
+          <div class="stat-card">
+            <p>Посетители за неделю</p>
+            <h3>876</h3>
+          </div>
+          <div class="stat-card">
+            <p>Посетители за месяц</p>
+            <h3>3,456</h3>
+          </div>
+          <div class="stat-card">
+            <p>Общее количество</p>
+            <h3>12,345</h3>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

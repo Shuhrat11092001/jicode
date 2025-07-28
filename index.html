@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jicode</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer" />
+</head> 
+<body>
+    <header class="main-header">
+        <div class="top-bar container">
+            <div class="logo">
+                <img src="image/logo/jicode logotype-05.svg" alt="Jicode" />
+            </div>
+
+            <form class="search-form" action="#" method="get">
+                <input type="text" placeholder="Искать товары или категории" name="q" />
+                <button type="submit">Найти</button>
+            </form>
+
+            <div class="social-block">
+                <span class="social-label">Мы в сети:</span>
+                <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <div class="cart-block">
+                <a href="#" class="cart-link" aria-label="Корзина">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span class="cart-text">Корзина: <strong>0</strong> сум</span>
+                </a>
+            </div>
+
+            <div class="contact-block">
+                <span class="sales-phone">Отдел продаж <strong>+998 77 123 45 67</strong></span>
+                <span class="email">info@Jicode.uz</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="category-bar container">
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-store"></i> Торговое оборудование</a></li>
+            <li><a href="#"><i class="fa-solid fa-scale-balanced"></i> Весы и тензодатчики</a></li>
+            <li><a href="#"><i class="fa-solid fa-box-open"></i> Упаковочное оборудование</a></li>
+            <li><a href="#"><i class="fa-solid fa-building-columns"></i> Банковское оборудование</a></li>
+            <li><a href="#"><i class="fa-solid fa-scroll"></i> Расходные материалы</a></li>
+            <li><a href="#"><i class="fa-solid fa-lightbulb"></i> Решения</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero container">
+        <div class="hero-promo">
+            <div class="promo-left">
+                <h2>ПРИНТЕР ЭТИКЕТОК<br/>ARGOX D2-250</h2>
+                <p>203 dpi, DT, 54 мм</p>
+                <a href="#" class="btn-primary">Заказать</a>
+            </div>
+            <div class="promo-center">
+                <img src="image/pngimg.com - printer_PNG7739.png" alt="Принтер Argox" />
+            </div>
+            <div class="promo-right">
+                <p>Современный и надёжный термопринтер,<br/> поддерживающий все типы штрих-кодов.</p>
+            </div>
+        </div>
+        <div class="hero-subscribe">
+            <div class="subscribe-content">
+                <h3>Подпишитесь на наш<br/> Telegram-канал</h3>
+                <p>Только акции, скидки и полезная информация!</p>
+                <a href="#" class="btn-secondary">Подписаться <i class="fa-solid fa-arrow-right"></i></a>
+                <div class="progress-dots">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </div>
+            <div class="subscribe-icon">
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories container">
+        <h2 class="section-title">Популярные категории</h2>
+        <div class="cat-grid">
+            <div class="cat-card cat1">
+                <h3>Торговое оборудование</h3>
+                <ul>
+                    <li>Сканеры штрих-кода</li>
+                    <li>Терминалы сбора данных</li>
+                    <li>Принтеры этикеток</li>
+                    <li>Запчасти (термоголовки, валы)</li>
+                </ul>
+                <img src="image/cat-trade.png" alt="Торговое оборудование" />
+            </div>
+            <div class="cat-card cat2">
+                <h3>Весы и тензодатчики</h3>
+                <ul>
+                    <li>Весы</li>
+                    <li>Тензодатчики</li>
+                    <li>Весовые индикаторы</li>
+                    <li>Соединительные коробки</li>
+                </ul>
+                <img src="image/cat-scale.png" alt="Весы" />
+            </div>
+            <div class="cat-card cat3">
+                <h3>Упаковочное оборудование</h3>
+                <ul>
+                    <li>Вакуумные машины</li>
+                    <li>Горячие столы</li>
+                    <li>Стрейч-упаковщики</li>
+                    <li>Запайщики пакетов</li>
+                </ul>
+                <img src="image/cat-pack.png" alt="Упаковка" />
+            </div>
+            <div class="cat-card cat4">
+                <h3>Офисное оборудование</h3>
+                <ul>
+                    <li>Брошюровщики</li>
+                    <li>Уничтожители бумаги</li>
+                </ul>
+                <img src="image/cat-office.png" alt="Офис" />
+            </div>
+            <div class="cat-card cat5">
+                <h3>Банковское оборудование</h3>
+                <ul>
+                    <li>Счетчики и сортировщики банкнот</li>
+                    <li>Детекторы валют</li>
+                    <li>Упаковщики банкнот</li>
+                </ul>
+                <img src="image/cat-bank.png" alt="Банк" />
+            </div>
+            <div class="cat-card cat6">
+                <h3>Расходные материалы</h3>
+                <ul>
+                    <li>Чековая лента</li>
+                    <li>Самоклеящаяся этикетка</li>
+                    <li>Этикет-лента</li>
+                    <li>Бирки, иглы и ролики</li>
+                </ul>
+                <img src="image/cat-consum.png" alt="Материалы" />
+            </div>
+        </div>
+    </section>
+
+    <section class="features container">
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h4>Быстрая доставка</h4>
+                <p>Доставим товар по всей стране в кратчайшие сроки.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-headset"></i>
+                <h4>Поддержка 24/7</h4>
+                <p>Наши специалисты всегда готовы ответить на ваши вопросы.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h4>Гарантия качества</h4>
+                <p>Только сертифицированная продукция с официальной гарантией.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-credit-card"></i>
+                <h4>Безопасная оплата</h4>
+                <p>Принимаем различные способы оплаты и обеспечиваем их безопасность.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hot-sales container">
+        <h2 class="section-title">Лидеры продаж</h2>
+        <div class="sales-grid">
+            <div class="sales-card">
+                <span class="badge">Популярный</span>
+                <div class="card-icons">
+                    <i class="fa-solid fa-balance-scale"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="img-wrap">
+                    <img src="image/image1.jpg" alt="Товар 1" />
+                </div>
+                <div class="card-info">
+                    <small class="maker">Производитель: MASSA-K</small>
+                    <h4>Весы товарные MASSA-K TB-S_A013</h4>
+                    <strong class="price">3 037 000 сум</strong>
+                </div>
+            </div>
+            <div class="sales-card">
+                <span class="badge">Популярный</span>
+                <div class="card-icons">
+                    <i class="fa-solid fa-balance-scale"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="img-wrap">
+                    <img src="image/image2.jpg" alt="Товар 2" />
+                </div>
+                <div class="card-info">
+                    <small class="maker">Производитель: CAS</small>
+                    <h4>Тензодатчик двукопорный CAS DSB-II</h4>
+                    <strong class="price">4 523 000 сум</strong>
+                </div>
+            </div>
+            <div class="sales-card">
+                <span class="badge">Популярный</span>
+                <div class="card-icons">
+                    <i class="fa-solid fa-balance-scale"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="img-wrap">
+                    <img src="image/image3.jpg" alt="Товар 3" />
+                </div>
+                <div class="card-info">
+                    <small class="maker">Производитель:</small>
+                    <h4>Ручной запайщик пакетов FS-300 ABS</h4>
+                    <strong class="price">296 000 сум</strong>
+                </div>
+            </div>
+
+            <div class="sales-card">
+              <span class="badge">Популярный</span>
+              <div class="card-icons">
+                  <i class="fa-solid fa-balance-scale"></i>
+                  <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="img-wrap">
+                  <img src="image/image1.jpg" alt="Товар 3" />
+              </div>
+              <div class="card-info">
+                  <small class="maker">Производитель:</small>
+                  <h4>Ручной запайщик пакетов FS-300 ABS</h4>
+                  <strong class="price">296 000 сум</strong>
+              </div>
+          </div>
+
+          <div class="sales-card">
+            <span class="badge">Популярный</span>
+            <div class="card-icons">
+                <i class="fa-solid fa-balance-scale"></i>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="img-wrap">
+                <img src="image/image2.jpg" alt="Товар 3" />
+            </div>
+            <div class="card-info">
+                <small class="maker">Производитель:</small>
+                <h4>Ручной запайщик пакетов FS-300 ABS</h4>
+                <strong class="price">296 000 сум</strong>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="click container">
+        <h2 class="section-title">Вы смотрели</h2>
+        <div class="click-grid">
+            <div class="click-card">
+                <div class="img-wrap">
+                    <img src="image/image1.jpg" alt="Сканер штрих-кода" />
+                </div>
+                <div class="card-info">
+                    <small class="maker">Производитель: DBS</small>
+                    <h4>Сканер штрих-кода DBS HC-3208</h4>
+                    <strong class="price">572 000 сум</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+ 
+
+
+    <section class="about-us container">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="image/image1.jpg" alt="JICODE" />
+            </div>
+            <div class="about-text">
+                <h3>ООО «JICODE» — Дискаунтер торгового оборудования</h3>
+                <p>ООО «JICODE» является дистрибьютором и реселлером известных мировых производителей торгового оборудования на рынке Узбекистана. Мы продаём и осуществляем техническую поддержку таких марок как Honeywell, Datalogic, Newland, Zebra, Argox, Datamax, CAS corp., ЗАО Масса-К, Printex, MOTEX и многих других в сфере оборудования для маркировки, весового оборудования, упаковочного оборудования и POS-решений.</p>
+                <a href="#" class="about-link">Читать дальше <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="news container">
+        <div class="news-header">
+            <h2 class="section-title">Новости</h2>
+            <a href="#" class="news-link">Все новости <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="news-grid">
+            <article class="news-card">
+                <div class="news-img"><img src="image/image1.jpg" alt="Киоски самообслуживания" /></div>
+                <h4 class="news-title">Киоски самообслуживания для HoReCa со склада A-Corp</h4>
+                <time class="news-date" datetime="2025-07-18">18 Июля, 2025</time>
+            </article>
+            <article class="news-card">
+                <div class="news-img"><img src="image/image2.jpg" alt="POSBANK" /></div>
+                <h4 class="news-title">Компания JICODE стала официальным дистрибьютором POSBANK</h4>
+                <time class="news-date" datetime="2025-07-01">1 Июля, 2025</time>
+            </article>
+            <article class="news-card">
+                <div class="news-img"><img src="image/image3.jpg" alt="Моноблок POS" /></div>
+                <h4 class="news-title">Уникальный 17-дюймовый сенсорный POS-моноблок на базе Intel i7</h4>
+                <time class="news-date" datetime="2024-11-05">5 Ноября, 2024</time>
+            </article>
+            <article class="news-card">
+                <div class="news-img"><img src="image/image3.jpg" alt="Автоматизация сети" /></div>
+                <h4 class="news-title">Автоматизация сети фастфудов «GoooooD Chicken»</h4>
+                <time class="news-date" datetime="2024-10-25">25 Октября, 2024</time>
+            </article>
+        </div>
+    </section>
+
+    <section class="brands container">
+        <div class="brands-header">
+            <h2 class="section-title">Наши бренды</h2>
+            <a href="#" class="brands-link">Все бренды <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="brands-grid">
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Newland" /></div>
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Datalogic" /></div>
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Zebra" /></div>
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Honeywell" /></div>
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Godex" /></div>
+            <div class="brand-card"><img src="image/Amazon.jpg" alt="Hualian" /></div>
+        </div>
+    </section>
+
+    <!-- <section class="subscribe-form container">
+        <div class="sub-form-content">
+            <div class="sub-left">
+                <h3>Подписаться на рассылку</h3>
+                <form action="#" method="post" class="email-form">
+                    <input type="email" placeholder="Эл. почта" required />
+                    <button type="submit">Подписаться <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <div class="sub-right">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </section> -->
+
+
+
+
+    <footer class="main-footer container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Категории</h4>
+                <ul>
+                    <li><a href="#">Торговое оборудование</a></li>
+                    <li><a href="#">Весы и тензодатчики</a></li>
+                    <li><a href="#">Упаковочное оборудование</a></li>
+                    <li><a href="#">Банковское оборудование</a></li>
+                    <li><a href="#">Расходные материалы</a></li>
+                    <li><a href="#">Решения</a></li>
+                    <li><a href="#">Производители</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Информация</h4>
+                <ul>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Для партнеров</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Условия возврата товара</a></li>
+                    <li><a href="#">Публичная оферта</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Личный кабинет</h4>
+                <ul>
+                    <li><a href="#">Аккаунт</a></li>
+                    <li><a href="#">Сравнение</a></li>
+                    <li><a href="#">Избранное</a></li>
+                    <li><a href="#">Возвраты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-contacts">
+                <h4>Отдел продаж</h4>
+                <p><strong>+998 77 021 44 55</strong><br/>
+                   <strong>+998 77 256 41 45</strong><br/>
+                   <strong>+998 77 256 41 43</strong><br/>
+                   <strong>+998 55 508 44 22</strong><br/>
+                   <strong>+998 55 508 44 55</strong></p>
+                <small>09:00 – 18:00 (понедельник – пятница)</small>
+                <div class="footer-social">
+                    <span class="social-label">Мы в сети</span>
+                    <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" aria-label="Odnoklassniki"><i class="fa-brands fa-odnoklassniki"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
